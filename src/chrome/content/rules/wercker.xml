@@ -1,0 +1,5 @@
+<ruleset name="wercker">
+  <target host="app.wercker.com" />
+
+  <rule from="^http:" to="https:" />
+</ruleset>
